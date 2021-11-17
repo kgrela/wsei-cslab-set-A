@@ -9,10 +9,10 @@ namespace Task_A01
             Random rnd = new Random();
             int[] randoms = new int[6];
 
-            for(int i=0;i<randoms.Length;i++)
+            for (int i = 0; i < randoms.Length; i++)
             {
                 randoms[i] = rnd.Next(1, 49);
-                Console.WriteLine("Random number "+i+" = "+randoms[i]);
+                Console.WriteLine("Random number " + i + " = " + randoms[i]);
             }
 
 
